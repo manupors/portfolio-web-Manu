@@ -9,30 +9,30 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Comunicate conmigo!</LinkTitle>
+          <LinkItem href="tel:314-343-3432">+56938957763</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+            manu.lagososorio@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Desarrollado por Manuel Lagos</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
+          <SocialIcons href="https://github.com/manupors">
+                    <AiFillGithub size="3rem" />
+                  </SocialIcons>
+                  <SocialIcons href="https://www.linkedin.com/in/manuel-lagos-osorio-214951127/">
+                    <AiFillLinkedin size="3rem" />
+                  </SocialIcons>
+                  <SocialIcons href="https://www.instagram.com/manuel_maximiliano/">
+                    <AiFillInstagram size="3rem"/>
+                  </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
@@ -40,3 +40,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

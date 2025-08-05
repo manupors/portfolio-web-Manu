@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'inicié mi carrera de desarrollo de Software', },
+  { year: 2020, text: 'Me especialicé en tecnologías FullStack', },
+  { year: 2021, text: 'Lideré mi primer proyecto complejo', },
+  { year: 2022, text: 'Expandí mis habilidades en arquitectura de Sistemas', },
+  { year: 2025, text: 'Actualmente desarrollando soluciones innovdoras y gestionando proyectos', },
 ];
