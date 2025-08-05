@@ -1,0 +1,7 @@
+[build]
+  command = "NODE_OPTIONS=--openssl-legacy-provider npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
+  NPM_FLAGS = "--legacy-peer-deps"
