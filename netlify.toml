@@ -1,9 +1,8 @@
 [build]
-  command = "rm -f yarn.lock package-lock.json && npm install --no-package-lock --legacy-peer-deps && NODE_OPTIONS=--openssl-legacy-provider npm run build"
+  command = "npm install --no-package-lock --legacy-peer-deps && NODE_OPTIONS=--openssl-legacy-provider npm run build"
   publish = ".next"
 
 [build.environment]
   NODE_OPTIONS = "--openssl-legacy-provider"
   NPM_FLAGS = "--legacy-peer-deps"
-  YARN_ENABLED = "false"
-  NODE_VERSION = "16"
+  NODE_VERSION = "16.20.0"
