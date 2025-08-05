@@ -1,8 +1,7 @@
 [build]
-  command = "npm install --no-package-lock --legacy-peer-deps && NODE_OPTIONS=--openssl-legacy-provider npm run build"
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = ".next"
 
 [build.environment]
-  NODE_OPTIONS = "--openssl-legacy-provider"
   NPM_FLAGS = "--legacy-peer-deps"
   NODE_VERSION = "16.20.0"
